@@ -15,7 +15,7 @@
     "build-pages": "./scripts/build-pages.sh",
     "create-version": "./scripts/commit.sh",
     "build-lib": "npm run build-dev; npm run create-version; ./scripts/npm-files.sh",
-    "deploy": "npm run deploy"
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://croqs-test.github.io",
   "author": "Croquet Corporation",
