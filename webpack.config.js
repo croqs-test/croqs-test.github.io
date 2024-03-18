@@ -9,7 +9,7 @@ const config = {
         'index': './index.js'
     },
     output: {
-        path: path.join(__dirname, 'dist'),
+        path: path.join(__dirname, 'build'),
         filename: 'lib/[name]-[contenthash:8].js',
         chunkFilename: (pathData) => {
             let name = pathData.chunk.id;
